@@ -1,0 +1,15 @@
+.todo-sub-items {
+    margin-left: 2rem;
+}
+
+.closed {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s;
+}
+
+.opened {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
